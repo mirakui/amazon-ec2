@@ -1,6 +1,6 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require "AWS/version"
+require File.expand_path(File.dirname(__FILE__)) + "/lib/AWS/version"
 
 Gem::Specification.new do |s|
   s.name        = "amazon-ec2"
